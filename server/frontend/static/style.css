@@ -23,6 +23,17 @@ img{
   padding:20px;
 }
 
+.column {
+  flex:50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .container{
   justify-content: center;
 }
