@@ -23,20 +23,17 @@ img{
   padding:20px;
 }
 
-.column {
-  flex:50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .container{
   justify-content: center;
 }
+
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .details{
   font-size: 20px;
   color: rgb(97, 64, 128);
